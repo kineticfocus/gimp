@@ -31,7 +31,7 @@
 ;; than if the entire image were converted to INDEXED before saving.
 
 
-(define (sg-save-all-layers orig-image 
+(define (kf-save-all-layers orig-image 
                             savedirectory
                             drawable
                             template
@@ -116,7 +116,7 @@
     )
   )
 
-(script-fu-register "sg-save-all-layers"
+(script-fu-register "kf-save-all-layers"
  "Save all layers..."
  "Save each layer to a file."
  "Saul Goode (remix by kf)"
@@ -130,4 +130,4 @@
  SF-TOGGLE "Rename (ex: 'frame__0001')" TRUE
  )
 
-(script-fu-menu-register "sg-save-all-layers" "<Image>/File/")
+(script-fu-menu-register "kf-save-all-layers" "<Image>/File/")
